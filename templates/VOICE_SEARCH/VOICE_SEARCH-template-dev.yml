@@ -48,6 +48,16 @@ application.security.key:
   rule: null
   restartRequired: false
   defaultValue: "key"
+application.sis-phone-properties.enabled:
+  configValueCount: "SINGLE"
+  configValueType: "BOOLEAN"
+  displayName: "Sisphone Password"
+  description: "Sisphone password value"
+  sectionName: "SISPHONE_PASSWORD"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: false
 application.sis-phone-properties.password:
   configValueCount: "SINGLE"
   configValueType: "STRING"
@@ -58,6 +68,26 @@ application.sis-phone-properties.password:
   rule: null
   restartRequired: false
   defaultValue: "sisphone-password"
+application.sis-phone-properties.url:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Sisphone Password"
+  description: "Sisphone password value"
+  sectionName: "SISPHONE_PASSWORD"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "sisphone-url"
+application.sis-phone-properties.username:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Sisphone Password"
+  description: "Sisphone password value"
+  sectionName: "SISPHONE_PASSWORD"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "sisphone-username"
 security.api-access.access-token:
   configValueCount: "SINGLE"
   configValueType: "STRING"
