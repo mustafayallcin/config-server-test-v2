@@ -94,7 +94,7 @@ eureka.client.service-url.defaultZone:
   displayName: "Eureka DefaultZone"
   description: "Eureka defaultZone value"
   sectionName: "DEFAULT_ZONE"
-  encrypted: true
+  encrypted: false
   rule: null
   restartRequired: false
   defaultValue: "http://admin:${jhipster.registry.password}@localhost:8761/eureka/"
