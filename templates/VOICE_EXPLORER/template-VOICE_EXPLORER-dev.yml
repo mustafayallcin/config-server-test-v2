@@ -1,0 +1,20 @@
+application:
+  configValueCount: null
+  configValueType: null
+  displayName: null
+  description: null
+  sectionName: null
+  encrypted: false
+  rule: null
+  restartRequired: null
+  defaultValue: null
+eureka:
+  configValueCount: null
+  configValueType: null
+  displayName: null
+  description: null
+  sectionName: null
+  encrypted: false
+  rule: null
+  restartRequired: null
+  defaultValue: null
