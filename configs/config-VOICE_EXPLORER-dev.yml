@@ -6,5 +6,5 @@ application:
 eureka:
   client:
     service-url:
-      password: "{cipher}cd5dc5f174463f3a17baf701b09f6134125bdffacec61d6c70ed465e17b0b115"
+      password: "{cipher}d51820b2ebd4e5214b4f247813213e3ebe2690615f2a809ee3fd5bc831314e17"
       username: "{cipher}a028d227359b2971b1bf666b198eecc95585ca28ecf13b4f9eab1a00a7326a96"
