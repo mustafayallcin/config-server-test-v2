@@ -16,7 +16,7 @@ application:
 eureka:
   client:
     service-url:
-      defaultZone: "{cipher}309f0de6ea1b3bd3c3642ddeb91367c330c740c277119b42585ad6df5631dd406ca910982d596a28d7de9704686f2fa47ff6cad19344adfccce0460883a94c9728797fb4599641ec625146b1ec88ddc44ca44b965a348a43587cb24e4457586c"
+      defaultZone: " http://admin:${jhipster.registry.password}@localhost:8761/eureka/"
 security:
   api-access:
     access-token: "{cipher}ed8fff75cf844f06ad59cbf5b239b77574f952bfe7510207658856b6818bd597ba12522705df755dce348bbac83a5f7b01c28398fd0860407279b1517c828fbb"
