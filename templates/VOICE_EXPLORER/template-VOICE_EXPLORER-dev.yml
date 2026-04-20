@@ -28,3 +28,23 @@ application.keycloak-admin.username:
   rule: null
   restartRequired: false
   defaultValue: "keycloak-username"
+eureka.client.service-url.password:
+  configValueCount: null
+  configValueType: null
+  displayName: null
+  description: null
+  sectionName: null
+  encrypted: false
+  rule: null
+  restartRequired: null
+  defaultValue: null
+eureka.client.service-url.username:
+  configValueCount: null
+  configValueType: null
+  displayName: null
+  description: null
+  sectionName: null
+  encrypted: false
+  rule: null
+  restartRequired: null
+  defaultValue: null
