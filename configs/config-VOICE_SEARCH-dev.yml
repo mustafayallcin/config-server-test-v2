@@ -1,0 +1,25 @@
+application:
+  config-server:
+    keycloak-config:
+      client-secret: "{cipher}4cc8b856e856f0ab98807c6b98eda8865221e759cb352257f45e85de7af4f414b84f5e363d77dce69c363be0e763ae56ce1d653bd3a791291c7d8a25adffe0b6"
+  keycloak-admin:
+    app-resource-secret: "{cipher}1d0b61ce2d1b2d0830714f58666767f86b611d092c5cfd1fc9894d6fa55105f949d1553457b5203fdcf3c207db49b3667810e537a1946ea6d09d220610a1b67b"
+    password: "{cipher}c3b41cddd31b5d2ec837705a6cc6fd9fd113f14e6ae388e18e61105dacdf2db8"
+    username: "{cipher}fec12f8c5f2727e2e65492ce6fbe14882eed627729689985e4e63a97c29f2be5"
+  security:
+    key: "{cipher}65d1fa33f95e00134eb94419faa381f5c6c9419e277f5007d7fa4929e90d02bef9f7d2a6b0794e8626a97b8ae78ec8dd"
+  sis-phone-properties:
+    enabled: false
+    password: "{cipher}321dd2211fadb45459ae20da7508bb5b6fb0108cde9215e846871555e9ce8fb5"
+    url: "{cipher}3f823cff8ec6d0e50ceae790b68c21f1a648a1e62b0ec42c4cce7ab455006205271d31ba1aa197b27203a95299fa7ef1"
+    username: "{cipher}706c65b7726a0f6bc98beb4cb64aa0e88e16cafa2a1241b5446ed81782954dc0"
+security:
+  api-access:
+    access-token: "{cipher}ed8fff75cf844f06ad59cbf5b239b77574f952bfe7510207658856b6818bd597ba12522705df755dce348bbac83a5f7b01c28398fd0860407279b1517c828fbb"
+spring:
+  datasource:
+    password: "{cipher}f98bce5d3ed8fb9ca67a44d588ab8b4ba928fd0a442e31c61c343cb156ab8d91"
+    username: "{cipher}bba138966429e342dc947ed30b9e9657feddb9ec6011cc78f5e4a9e2f8ed0c9a"
+  elasticsearch:
+    password: "{cipher}d035ab9df1c2d14d005c949d365f219ebc4832f7a7c7ab06ec2399e4681a447e"
+    username: "{cipher}5462ce6abb164451515d342df05d8e9d0bdf512c8d4cc9723c9b641954cc87cd"
