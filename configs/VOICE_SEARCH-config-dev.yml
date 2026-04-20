@@ -11,8 +11,8 @@ application:
   sis-phone-properties:
     enabled: true
     password: "{cipher}20b0ce6f482e027e479640ae75fd727129b00af7028c23e9d829c8e65b7fbd7b"
-    url: "http://192.168.12.152/sisphone"
-    username: "bugra"
+    url: "{cipher}fe11b5d5cc011842dd9e702379f4458aa9a1e36947e980d8d188bc7eada2ec39455f199f73a8a6b7c3f681e36f935d86"
+    username: "{cipher}2e76db8e312cbf4bde7d4d0fd0c8fb9ddc8c41c3ac1770c0fd05d30b30f5add4"
 security:
   api-access:
     access-token: "{cipher}8b769fcf7e1ac7542f4aa7284b53061e12d57102f6686c5a10b591f3b05f08e20a533c2ad3c1b22c8772bcbc3082b0ea57110b078fbd1a360c5978daf9f21dd6"
