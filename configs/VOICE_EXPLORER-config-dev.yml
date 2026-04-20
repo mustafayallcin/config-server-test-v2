@@ -1,5 +1,0 @@
-application:
-  keycloak-admin:
-    app-resource-secret: "{cipher}3d43537584d49015649f4b155a389397b190e05b1ab24720bf261d96024ff40d95173be39387e91f82d7a88fb0be41a6"
-    password: "{cipher}285dc62583ad5e3dd8be2d52cc3a3f7cc160c0374224654125da0bb62c5bdb861e70bedbaac2b519154a113f50aaf7f3"
-    username: "{cipher}a0d09ab0255bc53becba3bb41d48b1c4460cc27168e7cd66945af2236bcaf6da3d18197fcda150cc1d82a9018b295b4d"
