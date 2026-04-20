@@ -1,0 +1,25 @@
+application:
+  config-server:
+    keycloak-config:
+      client-secret: "{cipher}d994579f5e13bfbf38acd70395a812b51c2a6b345ac924c10c00109164e99febf1ecb973a55ec3af15df76e24aa18929eab1133a988806c0a55905dc7fa83433"
+  keycloak-admin:
+    app-resource-secret: "{cipher}9da661e959078e94729a4a615aab531c3770086eaab9039e8b594410bd0139f6bdc003751bd7f22276c2b70e6173c090b9b3e89d06c7a9b82fed403d06d54ccd"
+    password: "{cipher}86b002190ed20393339eeb4c9dc4012191f942767ae02e5d3eff342bce422b20"
+    username: "{cipher}03c65656ddf9761e1d45830e967957084ffeb12267d2868dc30c844aedd0d841"
+  security:
+    key: "{cipher}dbc8d7ead0965065a680920be91d726ef9c8cf3bf04d9f721674828db5c50e70aae32b6ca6770f14eccfe404b665ee02"
+  sis-phone-properties:
+    enabled: true
+    password: "{cipher}20b0ce6f482e027e479640ae75fd727129b00af7028c23e9d829c8e65b7fbd7b"
+    url: "http://192.168.12.152/sisphone"
+    username: "bugra"
+security:
+  api-access:
+    access-token: "{cipher}8b769fcf7e1ac7542f4aa7284b53061e12d57102f6686c5a10b591f3b05f08e20a533c2ad3c1b22c8772bcbc3082b0ea57110b078fbd1a360c5978daf9f21dd6"
+spring:
+  datasource:
+    password: "{cipher}1989eb038fe171e11be7e752b56fe4b5cc10236490328531340d7b9f4112e73e"
+    username: "{cipher}acd3c661c38046cdc0e38711ddc959bfe120e1728cb0fae7c7cf0185d0618a16"
+  elasticsearch:
+    password: "{cipher}701f2ae60d59bb1f55c1a444dbda3989712af364f019b89025e3cd12b6c6e472"
+    username: "{cipher}35eda11f74f50e67324946e2901f35f1239afa10e912579a35325214a9fa60a9"
