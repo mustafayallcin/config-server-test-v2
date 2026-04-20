@@ -29,22 +29,22 @@ application.keycloak-admin.username:
   restartRequired: false
   defaultValue: "keycloak-username"
 eureka.client.service-url.password:
-  configValueCount: null
-  configValueType: null
-  displayName: null
-  description: null
-  sectionName: null
-  encrypted: false
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Service Url Password"
+  description: "Service url password value"
+  sectionName: "SERVICE_URL_PASSWORD"
+  encrypted: true
   rule: null
-  restartRequired: null
-  defaultValue: null
+  restartRequired: false
+  defaultValue: "admin"
 eureka.client.service-url.username:
-  configValueCount: null
-  configValueType: null
-  displayName: null
-  description: null
-  sectionName: null
-  encrypted: false
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Service Url Username"
+  description: "Service url username value"
+  sectionName: "SERVICE_URL_USERNAME"
+  encrypted: true
   rule: null
-  restartRequired: null
-  defaultValue: null
+  restartRequired: false
+  defaultValue: "admin"
