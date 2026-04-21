@@ -1,13 +1,3 @@
-application:
-  configValueCount: null
-  configValueType: null
-  displayName: null
-  description: null
-  sectionName: null
-  encrypted: false
-  rule: null
-  restartRequired: null
-  defaultValue: null
 application.config-server.keycloak-config.client-secret:
   configValueCount: "SINGLE"
   configValueType: "STRING"
@@ -58,6 +48,58 @@ application.security.key:
   rule: null
   restartRequired: false
   defaultValue: "key"
+application.sis-phone-properties.enabled:
+  configValueCount: "SINGLE"
+  configValueType: "BOOLEAN"
+  displayName: "Sisphone Password"
+  description: "Sisphone password value"
+  sectionName: "SISPHONE_PASSWORD"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: false
+application.sis-phone-properties.password:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Sisphone Password"
+  description: "Sisphone password value"
+  sectionName: "SISPHONE_PASSWORD"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "sisphone-password"
+application.sis-phone-properties.url:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Sisphone Password"
+  description: "Sisphone password value"
+  sectionName: "SISPHONE_PASSWORD"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "sisphone-url"
+application.sis-phone-properties.username:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Sisphone Password"
+  description: "Sisphone password value"
+  sectionName: "SISPHONE_PASSWORD"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "sisphone-username"
+managerGenesysCallConversationRole:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Manager Genesys Call Conversation Role"
+  description: "For VoiceServer the value should ve master, For VoiceBatch the value\
+    \ should be slave. master is writing CTL events to DB"
+  sectionName: "Slave"
+  encrypted: false
+  rule: "${managerGenesysCallConversationRole} == 'master' or ${managerGenesysCallConversationRole}\
+    \ == 'slave'"
+  restartRequired: true
+  defaultValue: "master"
 security.api-access.access-token:
   configValueCount: "SINGLE"
   configValueType: "STRING"
