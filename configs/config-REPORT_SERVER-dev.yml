@@ -4,6 +4,6 @@ application:
     username: "{cipher}7ce66acea007c8505e3cd57d9bc2be637f1f999b72dea7487e2080792bca7877"
 spring:
   datasource:
-    password: "{cipher}59db438659e44131a1b7f3ab38684fb48957eb40f193efa87c33be8a5a1ccd18"
+    password: "{cipher}273f3c063f6613aa7ce8ecbe55f4643565baaca555e07796fb6a9fa828ac827c"
     url: "jdbc:mysql://localhost:3307/reportnew?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true"
     username: "{cipher}f309b36b5b7e249b9f6a8f8ff400be951857906ab1a337bae558f46b5bd22371"
