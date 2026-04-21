@@ -1,0 +1,30 @@
+cron:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Cron Expression"
+  description: "Scheduled task cron expression"
+  sectionName: "SCHEDULE_SETTINGS"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "0 0 * * * ?"
+instance-name:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Instance Name"
+  description: "Name of the configuration instance"
+  sectionName: "GENERAL_SETTINGS"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "USER_DATA"
+profile:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Profile ID"
+  description: "User data profile identifier"
+  sectionName: "GENERAL_SETTINGS"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "1"
