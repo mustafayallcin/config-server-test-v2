@@ -124,7 +124,7 @@ spring.elasticsearch.password:
   displayName: "Elasticsearch Password"
   description: "Elasticsearch password value"
   sectionName: "ELASTICSEARCH_PASSWORD"
-  encrypted: true
+  encrypted: false
   rule: null
   restartRequired: false
   defaultValue: "elasticsearch-password"
@@ -134,7 +134,7 @@ spring.elasticsearch.username:
   displayName: "Elasticsearch Username"
   description: "Elasticsearch username value"
   sectionName: "ELASTICSEARCH_USERNAME"
-  encrypted: true
+  encrypted: false
   rule: null
   restartRequired: false
   defaultValue: "elasticsearch-username"
