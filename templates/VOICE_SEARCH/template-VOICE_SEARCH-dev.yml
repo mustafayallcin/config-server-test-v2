@@ -115,7 +115,7 @@ spring.datasource.username:
   description: "Datasource username value"
   sectionName: "DATASOURCE_USERNAME"
   encrypted: true
-  rule: null
+  rule: "${bar}.?[!#this.get('test1').matches('^[a-z]+$')].size() == 0"
   restartRequired: false
   defaultValue: "datasource-username"
 spring.elasticsearch.password:
@@ -125,7 +125,7 @@ spring.elasticsearch.password:
   description: "Elasticsearch password value"
   sectionName: "ELASTICSEARCH_PASSWORD"
   encrypted: true
-  rule: "${bar}.?[!#this.get('test1').matches('^[a-z]+$')].size() == 0"
+  rule: null
   restartRequired: false
   defaultValue: "elasticsearch-password"
 spring.elasticsearch.username:
