@@ -1,0 +1,18 @@
+application:
+  keycloak-admin:
+    app-resource-secret: "{cipher}bbb257e6c8c1057c0b70c2aa7d9a14baff0fbff223dc5e7678e2a170a4135f537815931648e1bb81ac809a412c5196a835ba8ab31a5d36b57e06852d1cba2735"
+    password: "{cipher}5e595bcb719291dfdfbe8f584368f6dd821bc9f6fb2a801ad8141d9a796ed8f5"
+    username: "{cipher}6804c0138062f92c182380e81de975df0d01e043cebcdbc8f3c4c1267f9970e8"
+eureka:
+  client:
+    service-url:
+      password: "{cipher}7f38d23ef0196cf0f7864f9a3df9a69fcdb2bf54523ab0b192e2a4e9c02c9df5"
+      username: "{cipher}f70e7b50849fbb7c7653cf5bd125c4e5f0aac6b80e5909584292b9d60428da60"
+kafka:
+  bootstrap-servers: "127.0.0.1:9092"
+  fromMediaProcessorToConversationLoggerTopic: "FROM_MEDIA_PROCESSOR_TO_CONVERSATION_LOGGER_TOPIC"
+spring:
+  datasource:
+    password: "{cipher}821746d11414d3245a142eb6d16bce118f0ac26b001ce0d2f96fe2400004a0cb"
+    url: "jdbc:sqlserver://localhost:1433;database=Test04-SisVoiceCC;encrypt=true;trustServerCertificate=true"
+    username: "sa"
