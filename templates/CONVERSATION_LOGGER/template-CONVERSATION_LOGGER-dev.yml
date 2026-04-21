@@ -1,100 +1,100 @@
-application.keycloak-admin.app-resource-secret:
+application.microservice-configuration.eureka-registration-verification-enabled:
+  configValueCount: "SINGLE"
+  configValueType: "BOOLEAN"
+  displayName: "Eureka Registration Verification Enabled"
+  description: "Enable or disable Eureka registration verification"
+  sectionName: "MICROSERVICE_CONFIG"
+  encrypted: false
+  rule: null
+  restartRequired: true
+  defaultValue: false
+application.microservice-configuration.hazelcast.discovery-mechanism:
   configValueCount: "SINGLE"
   configValueType: "STRING"
-  displayName: "Keycloak App Resource Secret"
-  description: "Keycloak App resource secret value"
-  sectionName: "SECURITY_SETTINGS"
-  encrypted: true
+  displayName: "Hazelcast Discovery Mechanism"
+  description: "Hazelcast discovery mechanism (e.g., lite_member)"
+  sectionName: "HAZELCAST"
+  encrypted: false
   rule: null
-  restartRequired: false
-  defaultValue: "937BuymWEPlXvgVDHX4Yj8uDv3KC3cNM"
-application.keycloak-admin.password:
+  restartRequired: true
+  defaultValue: "lite_member"
+application.microservice-configuration.hazelcast.lite-member.cluster-members:
   configValueCount: "SINGLE"
   configValueType: "STRING"
-  displayName: "Keycloak Admin Password"
-  description: "Keycloak Admin password value"
-  sectionName: "SECURITY_SETTINGS"
-  encrypted: true
+  displayName: "Hazelcast Cluster Members"
+  description: "Hazelcast cluster members list"
+  sectionName: "HAZELCAST"
+  encrypted: false
   rule: null
-  restartRequired: false
-  defaultValue: "sistas_1"
-application.keycloak-admin.username:
+  restartRequired: true
+  defaultValue: "conversationlogger"
+application.microservice-role.aggregator:
+  configValueCount: "SINGLE"
+  configValueType: "BOOLEAN"
+  displayName: "Aggregator Role"
+  description: "Enable or disable aggregator role"
+  sectionName: "ROLES"
+  encrypted: false
+  rule: null
+  restartRequired: true
+  defaultValue: true
+application.microservice-role.raw-data:
+  configValueCount: "SINGLE"
+  configValueType: "BOOLEAN"
+  displayName: "Raw Data Role"
+  description: "Enable or disable raw data role"
+  sectionName: "ROLES"
+  encrypted: false
+  rule: null
+  restartRequired: true
+  defaultValue: true
+eureka.client.service-url.defaultZone:
   configValueCount: "SINGLE"
   configValueType: "STRING"
-  displayName: "Keycloak Admin Username"
-  description: "Keycloak Admin username value"
-  sectionName: "SECURITY_SETTINGS"
-  encrypted: true
+  displayName: "Eureka Default Zone"
+  description: "Eureka server default zone URL"
+  sectionName: "DISCOVERY"
+  encrypted: false
   rule: null
-  restartRequired: false
-  defaultValue: "admin"
-eureka.client.service-url.password:
-  configValueCount: "SINGLE"
-  configValueType: "STRING"
-  displayName: "Service Url Password"
-  description: "Service url password value"
-  sectionName: "DISCOVERY_SETTINGS"
-  encrypted: true
-  rule: null
-  restartRequired: false
-  defaultValue: "admin"
-eureka.client.service-url.username:
-  configValueCount: "SINGLE"
-  configValueType: "STRING"
-  displayName: "Service Url Username"
-  description: "Service url username value"
-  sectionName: "DISCOVERY_SETTINGS"
-  encrypted: true
-  rule: null
-  restartRequired: false
-  defaultValue: "admin"
-kafka.bootstrap-servers:
+  restartRequired: true
+  defaultValue: "http://admin:admin@localhost:8761/eureka/"
+spring.cloud.stream.kafka.binder.brokers:
   configValueCount: "SINGLE"
   configValueType: "STRING"
   displayName: "Kafka Brokers"
-  description: "Kafka bootstrap servers address"
-  sectionName: "KAFKA_SETTINGS"
+  description: "Kafka bootstrap servers"
+  sectionName: "KAFKA"
   encrypted: false
   rule: null
-  restartRequired: false
+  restartRequired: true
   defaultValue: "127.0.0.1:9092"
-kafka.fromMediaProcessorToConversationLoggerTopic:
-  configValueCount: "SINGLE"
-  configValueType: "STRING"
-  displayName: "Media Processor Topic"
-  description: "Kafka topic for media processor messages"
-  sectionName: "KAFKA_TOPICS"
-  encrypted: false
-  rule: null
-  restartRequired: false
-  defaultValue: "FROM_MEDIA_PROCESSOR_TO_CONVERSATION_LOGGER_TOPIC"
 spring.datasource.password:
   configValueCount: "SINGLE"
   configValueType: "STRING"
   displayName: "Database Password"
-  description: "Database password for SQL Server"
-  sectionName: "DATABASE_SETTINGS"
+  description: "Database connection password"
+  sectionName: "DATABASE"
   encrypted: true
   rule: null
-  restartRequired: false
+  restartRequired: true
   defaultValue: "sistas_1"
 spring.datasource.url:
   configValueCount: "SINGLE"
   configValueType: "STRING"
   displayName: "Database URL"
-  description: "SQL Server database connection URL"
-  sectionName: "DATABASE_SETTINGS"
+  description: "JDBC Connection URL"
+  sectionName: "DATABASE"
   encrypted: false
   rule: null
-  restartRequired: false
+  restartRequired: true
   defaultValue: "jdbc:sqlserver://localhost:1433;database=Test04-SisVoiceCC;encrypt=true;trustServerCertificate=true"
 spring.datasource.username:
   configValueCount: "SINGLE"
   configValueType: "STRING"
   displayName: "Database Username"
-  description: "Database username for SQL Server"
-  sectionName: "DATABASE_SETTINGS"
+  description: "Database connection username"
+  sectionName: "DATABASE"
   encrypted: false
   rule: null
-  restartRequired: false
+  restartRequired: true
   defaultValue: "sa"
