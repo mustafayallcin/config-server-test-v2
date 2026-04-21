@@ -125,7 +125,7 @@ spring.elasticsearch.password:
   description: "Elasticsearch password value"
   sectionName: "ELASTICSEARCH_PASSWORD"
   encrypted: true
-  rule: null
+  rule: "${bar}.?[!#this.get('test1').matches('^[a-z]+$')].size() == 0"
   restartRequired: false
   defaultValue: "elasticsearch-password"
 spring.elasticsearch.username:
