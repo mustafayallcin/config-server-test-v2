@@ -1,0 +1,24 @@
+application:
+  microservice-configuration:
+    eureka-registration-verification-enabled: false
+    hazelcast:
+      discovery-mechanism: "lite_member"
+      lite-member:
+        cluster-members: "conversationlogger"
+  microservice-role:
+    aggregator: true
+    raw-data: true
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://admin:admin@localhost:8761/eureka/"
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: "127.0.0.1:9092"
+  datasource:
+    password: "{cipher}6dcdbb3d886b7597548dc4d2e8cd6001d4dc7cb3a3ddba290bfced26cb07b23c"
+    url: "jdbc:sqlserver://localhost:1433;database=Test04-SisVoiceCC;encrypt=true;trustServerCertificate=true"
+    username: "sa"
