@@ -88,16 +88,6 @@ application.sis-phone-properties.username:
   rule: null
   restartRequired: false
   defaultValue: "sisphone-username"
-eureka.client.service-url.defaultZone:
-  configValueCount: "SINGLE"
-  configValueType: "STRING"
-  displayName: "Eureka DefaultZone"
-  description: "Eureka defaultZone value"
-  sectionName: "DEFAULT_ZONE"
-  encrypted: false
-  rule: null
-  restartRequired: false
-  defaultValue: "http://admin:${jhipster.registry.password}@localhost:8761/eureka/"
 security.api-access.access-token:
   configValueCount: "SINGLE"
   configValueType: "STRING"
