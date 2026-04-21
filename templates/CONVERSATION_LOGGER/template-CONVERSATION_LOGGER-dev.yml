@@ -1,0 +1,30 @@
+spring.datasource.password:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Database Password"
+  description: "Database password for SQL Server"
+  sectionName: "DATABASE_SETTINGS"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "sistas_1"
+spring.datasource.url:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Database URL"
+  description: "SQL Server database connection URL"
+  sectionName: "DATABASE_SETTINGS"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "jdbc:sqlserver://localhost:1433;database=Test04-SisVoiceCC;encrypt=true;trustServerCertificate=true"
+spring.datasource.username:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Database Username"
+  description: "Database username for SQL Server"
+  sectionName: "DATABASE_SETTINGS"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "sa"
