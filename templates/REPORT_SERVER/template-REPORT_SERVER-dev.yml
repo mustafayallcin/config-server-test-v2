@@ -1,0 +1,50 @@
+application.keycloak-admin.password:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Keycloak Admin Password"
+  description: "Admin password for security integration"
+  sectionName: "SECURITY"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "admin-password"
+application.keycloak-admin.username:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Keycloak Admin Username"
+  description: "Admin username for security integration"
+  sectionName: "SECURITY"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "admin-username"
+spring.datasource.password:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Datasource Password"
+  description: "Database password for Report Server"
+  sectionName: "DATABASE"
+  encrypted: true
+  rule: null
+  restartRequired: true
+  defaultValue: "report_pass"
+spring.datasource.url:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Datasource URL"
+  description: "JDBC Connection URL for Report Database"
+  sectionName: "DATABASE"
+  encrypted: false
+  rule: null
+  restartRequired: true
+  defaultValue: "jdbc:mysql://localhost:3306/report_server"
+spring.datasource.username:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Datasource Username"
+  description: "Database user for Report Server"
+  sectionName: "DATABASE"
+  encrypted: true
+  rule: null
+  restartRequired: true
+  defaultValue: "report_user"
