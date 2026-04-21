@@ -18,7 +18,7 @@ security:
     access-token: "{cipher}ed8fff75cf844f06ad59cbf5b239b77574f952bfe7510207658856b6818bd597ba12522705df755dce348bbac83a5f7b01c28398fd0860407279b1517c828fbb"
 spring:
   datasource:
-    password: "{cipher}f98bce5d3ed8fb9ca67a44d588ab8b4ba928fd0a442e31c61c343cb156ab8d91"
+    password: "{cipher}4ae233f1bc33611fd2ba1a6554eea1f627bf71c99dbfc455e46a77ee97022938"
     username: "{cipher}bba138966429e342dc947ed30b9e9657feddb9ec6011cc78f5e4a9e2f8ed0c9a"
   elasticsearch:
     password: "{cipher}d035ab9df1c2d14d005c949d365f219ebc4832f7a7c7ab06ec2399e4681a447e"
