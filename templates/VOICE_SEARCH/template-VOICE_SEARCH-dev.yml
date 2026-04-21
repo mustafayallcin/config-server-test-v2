@@ -1,7 +1,7 @@
 application.config-server.keycloak-config.client-secret:
   configValueCount: "SINGLE"
   configValueType: "STRING"
-  displayName: "Client Secret 2"
+  displayName: "Client Secret"
   description: "Client secret value"
   sectionName: "CLIENT_SECRET"
   encrypted: true
