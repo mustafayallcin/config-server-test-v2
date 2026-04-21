@@ -20,5 +20,5 @@ spring:
           brokers: "127.0.0.1:9092"
   datasource:
     password: "{cipher}6dcdbb3d886b7597548dc4d2e8cd6001d4dc7cb3a3ddba290bfced26cb07b23c"
-    url: "jdbc:sqlserver://localhost:1433;database=Test04-SisVoiceCC;encrypt=true;trustServerCertificate=true"
+    url: "jdbc:sqlserver://localhost:1433;database=sis-voice;encrypt=true;trustServerCertificate=true"
     username: "sa"
