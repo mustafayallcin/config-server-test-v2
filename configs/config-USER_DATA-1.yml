@@ -1,0 +1,3 @@
+cron: "0 0 * * * ?"
+instance-name: "USER_DATA"
+profile: "1"
