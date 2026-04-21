@@ -88,6 +88,18 @@ application.sis-phone-properties.username:
   rule: null
   restartRequired: false
   defaultValue: "sisphone-username"
+managerGenesysCallConversationRole:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Manager Genesys Call Conversation Role"
+  description: "For VoiceServer the value should ve master, For VoiceBatch the value\
+    \ should be slave. master is writing CTL events to DB"
+  sectionName: "Slave"
+  encrypted: false
+  rule: "${managerGenesysCallConversationRole} == 'master' or ${managerGenesysCallConversationRole}\
+    \ == 'slave'"
+  restartRequired: true
+  defaultValue: "master"
 security.api-access.access-token:
   configValueCount: "SINGLE"
   configValueType: "STRING"
