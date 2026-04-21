@@ -4,6 +4,6 @@ application:
     username: "{cipher}7ce66acea007c8505e3cd57d9bc2be637f1f999b72dea7487e2080792bca7877"
 spring:
   datasource:
-    password: "{cipher}6df086bb33dcdeadefd291d9d7dd414f5583f3f74aa59317c34b07ac3e818eb2"
+    password: "{cipher}87cc0ccf11fee84701e4ecc60a8ef4e29573de9e93eb7d9e046c90b1e37c71a8"
     url: "jdbc:sqlserver://localhost:1433;database=reportserver-v2;encrypt=false"
-    username: "{cipher}14899af86b84f5cfa269af7f23bd10c92956984e501124752340fbec943660fc"
+    username: "{cipher}bb00f62d8163179d3f50926bfcbc180e154ff68eb43c6e2bad05489b4824df7f"
